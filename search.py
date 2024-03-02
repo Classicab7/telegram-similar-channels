@@ -5,7 +5,7 @@ import json
 from transforms.GetSimilarTelegramChannels import get_similar_channels
 
 if __name__ == "__main__":
-	channel = input('Type a username of a Telegram channel to get similar channels: ')
+	channel = input('https://t.me/aviator_free_signals')
 	result = get_similar_channels(channel)
 
 	for c in result.chats:
